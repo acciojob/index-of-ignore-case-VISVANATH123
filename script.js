@@ -1,9 +1,9 @@
-function indexOfIgnoreCase(s1: string, s2: string) {
-// Edge case: empty subStr should return 0 as per usual indexOf behavior
-    if (subStr === "") return 0;
+function indexOfIgnoreCase(s1, s2) {
+    // Edge case: empty s2 should return 0
+    if (s2 === "") return 0;
 
-    const lowerStr = str.toLowerCase();
-    const lowerSubStr = subStr.toLowerCase();
+    const lowerStr = s1.toLowerCase();
+    const lowerSubStr = s2.toLowerCase();
 
     return lowerStr.indexOf(lowerSubStr);
 }
