@@ -1,5 +1,5 @@
 function indexOfIgnoreCase(s1: string, s2: string): number {
-/ Edge case: empty subStr should return 0 as per usual indexOf behavior
+// Edge case: empty subStr should return 0 as per usual indexOf behavior
     if (subStr === "") return 0;
 
     // Convert both strings to lowercase for case-insensitive comparison
