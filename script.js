@@ -1,5 +1,8 @@
-function indexOfIgnoreCase(s1, s2) {
+function indexOfIgnoreCase(s1, s2):number {
   // write your code here
+  const v1=s1.toLowerCase().replaceAll('/\s/g','');
+  const v2=s2.toLowerCase();
+  return v1.indexOf(v2);
 }
 
 // Please do not change the code below
